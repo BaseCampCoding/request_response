@@ -13,9 +13,9 @@ By the end of this assignment you should be able to:
 
 In the provided [functions-over-http](./exercises/functions_over_http) project's `app` app, implement the following view and path pairs. Test cases have been provided to help you check your work. Also type annotations are required.
 
-1. [ ] **Hello World** Your app should respond with `Hello World!` when a request is made to `/hello`. For example, a request to `/hello` should respond with `Hello World!`.
-2. [ ] **Hey You:** Your app should respond with `Hey, <name>!` when a request is made to `/hey/<name>`. For example, a request to `/hey/bcca` should respond with `Hey, BCCA!`.
-3. [ ] **How Old:** Your app should respond with a user's age in some provided end year when a request is made to `/age-in/<end>/<birthyear>`. For example `/age-in/2050/2000` should respond with `50`. Your path should appropriately indicate that the `end` and `birthyear` path arguments are integers.
+1. [ ] **Hey You:** Your app should respond with `Hey, <name>!` when a request is made to `/hey/<name>`. For example, a request to `/hey/bcca` should respond with `Hey, BCCA!`.
+2. [ ] **How Old:** Your app should respond with a user's age in some provided end year when a request is made to `/age-in/<end>/<birthyear>`. For example `/age-in/2050/2000` should respond with `50`. Your path should appropriately indicate that the `end` and `birthyear` path arguments are integers.
+3. [ ] **Can I Take Your Order:** Your app should respond with an order total for a provided number of hamburgers, fries, and drinks when a request is made to `/order-total/<burgers>/<fries>/<drinks>`. Burgers are $4.50. Fries are $1.5. Drinks are $1. Your path should appropriately indicate that the `burgers`, `fries`, and `drinks` path arguments are integers.
 
 
 ### How to run test cases.
