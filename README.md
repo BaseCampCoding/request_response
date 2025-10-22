@@ -19,8 +19,8 @@ In the provided [functions-over-http](./exercises/functions_over_http) project's
 
 
 ### How to run test cases.
-Mac: python3 manage.py test
-Windows: python manage.py test
+- Mac: python3 manage.py test
+- Windows: python manage.py test
 
 
 ### Common Misconceptions/Errors to Watch Out For
